@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f5f5f5; /* background putih abu */
+  color: #111;
+}
+
+/* CONTAINER */
+.container {
+  padding: 30px 80px;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  color: #111;
+}
+
+.menu a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.menu a.active {
+  border-bottom: 2px solid #111;
+  padding-bottom: 5px;
+}
+
+/* HERO */
+.hero {
+  margin-top: 100px;
+}
+
+/* TEXT */
+.text h1 {
+  font-size: 70px;
+  margin: 0;
+  font-weight: 800;
+}
+
+.text h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #555;
+  margin-top: 10px;
+}
+
+.text p {
+  max-width: 500px;
+  color: #666;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+/* BUTTON */
+.btn {
+  margin-top: 30px;
+  padding: 12px 25px;
+  border: 1px solid #111;
+  background: #111;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: white;
+  color: #111;
+}
+
+/* HAPUS GRID BACKGROUND */
+body::before {
+  display: none;
+}

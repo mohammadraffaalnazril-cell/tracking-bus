@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f0f0f0;
+  color: white;
+}
+
+.navbar {
+  position: relative;
+  background: black;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Tombol kiri */
+.back {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 15px;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Judul tetap tengah */
+.title {
+  margin: 0;
+}
+
+.jam {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+  color: #000000;
+}
+
+.list {
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  color: black;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 18px;
+}
